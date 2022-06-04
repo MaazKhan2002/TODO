@@ -1,0 +1,99 @@
+body{
+    background-image: url(Img/7561340.jpg);
+}
+
+
+.main{
+    margin-left: 35%;
+    width: 30%;
+    height: 60vh auto;
+    
+    background-color: skyblue
+}
+
+.enter {
+    text-align: center;
+    margin-top: 50px;
+}
+input{
+    margin-top: 10px;
+    height: 3vh;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+.enter button{
+    height: 3vh;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+background-color: aqua;
+opacity: 0.5;
+}
+.enter button:hover{
+    background-color: rgb(175, 211, 211);
+
+}
+.btn {
+    border-radius: 20px;
+    margin-left: 48px;
+    margin-top: 40px;
+    font-size: 1rem;
+    border: none;
+    padding: 5px;
+    background-color: aqua;
+    background-color: rgb(175, 211, 211);
+
+}
+.list{
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+
+@media only screen and (max-width:800px){
+    .main{
+        
+        margin-top: 30%;
+        width: 80%;
+        margin-left: 60px;
+    }
+    sthh1{
+        text-align: center;
+    }
+    
+    input{
+        width: 100%;
+        overflow: hidden;
+    }
+    h1{
+        display: flex;
+        overflow: hidden;
+    }
+    button{
+        margin-top: auto;
+    }
+}
+@media only screen and (max-width:720){
+    .main{
+        display: flex;
+        margin-top: 30%;
+        width: 80%;
+        margin-left: 60px;
+    }
+    h1{
+        text-align: center;
+    }
+    input{
+        width: 100%;
+        overflow: hidden;
+    }
+    h1{
+        display: flex;
+        overflow: hidden;
+    }
+    button{
+        margin-top: auto;
+    }
+}
